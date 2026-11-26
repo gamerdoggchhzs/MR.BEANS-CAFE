@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Mr. Beans Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="../assets/mr-beans-logo.jpg" alt="Mr. Beans Cafe Logo">
+            <span>Mr. Beans Cafe</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>About Mr. Beans Cafe</h1>
+        </section>
+
+        <section class="content-section">
+            <div class="card-grid">
+
+                <div class="info-card">
+                    <h2>Mr.Beans</h2>
+                    <p>Mr.Beans Cafe is a friendly place where you can relax,
+        enjoy delicious drinks, and spend time with family and friends.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2>Cafe Concept</h2>
+                    <p>Our cafe has a warm and welcoming coffee-inspired theme.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2>Our Goal</h2>
+                    <p>Our goal is to provide enjoyable food, refreshing drinks, and a comfortable place for our customers.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mr. Beans Cafe.</p>
+    </footer>
+
+</body>
+</html>

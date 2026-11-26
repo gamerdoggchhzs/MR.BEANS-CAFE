@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mr. Beans Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="../ALLEYAH/Mr.BeansCafe" alt="Mr. Beans Cafe Logo">
+            <span>Mr. Beans Cafe</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you!</p>
+        </section>
+
+        <section class="content-section">
+
+            <div class="card-grid">
+                <div class="info-card">
+                    <h2>Contact Information</h2>
+                    <p>Email: <i>MrBeansCafe@gmail.com</i> </p>
+                    <p>Phone: <i>0907-424-0131</i></p>
+                    <p>Location: <i>San Pedro Relocation Center National High School</i></p>
+                </div>
+
+                <div class="info-card">
+                    <h2>Inquiries</h2>
+                    <p>For questions and suggestions, you may send us a message using the form.</p>
+                </div>
+            </div>
+
+            <h2>Message Form</h2>
+
+            <form class="contact-form" id="contactForm">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" placeholder="Write your message here" required></textarea>
+
+                <button type="submit" class="button">Send Message</button>
+
+                <p id="formMessage"></p>
+
+            </form>
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Mr. Beans Cafe.</p>
+        <small>created by: Gonzales & Lizano</small>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

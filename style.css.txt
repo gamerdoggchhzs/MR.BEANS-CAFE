@@ -1,0 +1,267 @@
+/* GENERAL STYLE */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: wheat;
+    color: saddlebrown;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #4B2E1F;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* LOGO */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.brand img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* NAVIGATION BAR */
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 14px;
+    display: block;
+    border-radius: 20px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: peru;
+    color: white;
+}
+
+/* HOME PAGE */
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: antiquewhite;
+}
+
+.hero h1 {
+    color: #4B2E1F;
+    font-family: Georgia, serif;
+    font-size: 45px;
+}
+
+.hero p {
+    color: saddlebrown;
+    font-size: 18px;
+}
+
+/* BUTTON */
+
+.button,
+.btn {
+    display: inline-block;
+    background-color: saddlebrown;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button:hover,
+.btn:hover {
+    background-color: peru;
+    color: white;
+}
+
+/* PAGE HEADING */
+
+.page-heading {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: burlywood;
+}
+
+.page-heading h1 {
+    color: #4B2E1F;
+    font-family: Georgia, serif;
+    font-size: 38px;
+}
+
+/* CONTENT SECTION */
+
+.content-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.content-section h2 {
+    color: saddlebrown;
+    margin-top: 30px;
+}
+
+/* CARDS */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.info-card,
+.menu-card,
+.gallery-card {
+    background-color: white;
+    border: 2px solid burlywood;
+    border-radius: 12px;
+    padding: 22px;
+    text-align: center;
+}
+
+
+.info-card h2,
+.info-card h3,
+.menu-card h3,
+.gallery-card h3 {
+    color: saddlebrown;
+}
+
+.menu-card:hover,
+.info-card:hover,
+.gallery-card:hover {
+    background-color: antiquewhite;
+}
+
+/* MENU PRICE */
+
+.price {
+    color: sienna;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* EMOJI */
+
+.emoji {
+    font-size: 45px;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    max-width: 650px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.contact-form textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+#formMessage {
+    color: sienna;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #4B2E1F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .brand {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+
+/* GALLERY IMAGE BOX */
+
+.gallery-card {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    border: 2px solid burlywood;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs | Mr. Beans Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="../assets/mr-beans-logo.jpg" alt="Mr. Beans Cafe Logo">
+            <span>Mr. Beans Cafe</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>Our Programs</h1>
+        </section>
+
+        <section class="content-section">
+            <div class="card-grid">
+
+                <div class="info-card">
+                    <h2>Student Discount</h2>
+                <p>Students can enjoy special discounts when they show their school ID.</p>                </div>
+
+                <div class="info-card">
+                    <h2>Weekend Treat </h2>
+ <p>Enjoy selected drinks and snacks during weekends.</p>                </div>
+
+                <div class="info-card">
+                    <h2>Friends Meetup </h2>
+                           <p>Bring your friends and enjoy a relaxing time at our cafe.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mr. Beans Cafe.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+const contactForm = document.querySelector(".contact-form");
+const formMessage = document.getElementById("formMessage");
+
+contactForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    formMessage.textContent = "Thank you for contacting Mr. Beans Cafe! Have a wonderful day! ☕";
+
+    contactForm.reset();
+});

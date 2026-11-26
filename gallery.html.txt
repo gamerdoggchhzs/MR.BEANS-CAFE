@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Mr. Beans Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="../ALLEYAH/Mr.BeansCafe" alt="Mr. Beans Cafe Logo">
+            <span>Mr. Beans Cafe</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>Our Gallery</h1>
+            <p>Take a look at our drinks and delicious food.</p>
+        </section>
+
+        <section class="content-section">
+
+            <h2>Coffee</h2>
+            <div class="card-grid">
+                <div class="gallery-card">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.uA8HlnNI84-qsUE6O7wmVgHaD2?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                    <h3>Freshly Brewed Coffee</h3>
+                </div>
+
+                <div class="gallery-card">
+                    <img src="https://cdn.pixabay.com/photo/2015/09/09/17/42/coffee-932103_1280.jpg">
+                    <h3>Cafe Latte</h3>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ0X-TWo8fn7rjmWloypy-tJanX_CNMDXTpoZwstVKSQ&s=10">
+                    <h3>Mocha</h3>
+                </div>
+            </div>
+
+            <h2>Drinks</h2>
+            <div class="card-grid">
+                <div class="gallery-card">
+                     <img src="https://i.pinimg.com/originals/03/f6/fb/03f6fb4d51076c1d5b29657c5053907b.png">
+
+                    <h3>Milk Tea</h3>
+                </div>
+
+                <div class="gallery-card">
+           <img src="https://i.pinimg.com/originals/8a/0d/b8/8a0db8a487b4d720885e0604d829769c.jpg">
+              <h3>Strawberry Frappe</h3>
+                </div>
+                
+                  <div class="gallery-card">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqAMHgwNHUEX-gjjlJOVmFeVI2QedglEv7j2ivTxkmrg&s=10">
+              <h3>Iced Matcha</h3>
+                </div>
+                
+                <div class="gallery-card">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzT3gD9Lb7sx6I6OTQvQTQF6XIswwWPeUD4ZF-Wc7f5vN477zVKyYuks&s=10">
+              <h3>Java Chip Frappe</h3>
+                </div>
+            </div>
+
+            <h2>Foods</h2>
+            <div class="card-grid">
+                <div class="gallery-card">
+                    <img src="https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg">
+                    <h3>Pizza</h3>
+                </div>
+
+                <div class="gallery-card">
+                    <img src="https://www.thespruceeats.com/thmb/IHKuXcx3uUI1IWkM_cnnQdFH-zQ=/3485x2323/filters:fill(auto,1)/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpg">
+                    <h3>Fries</h3>
+                </div>
+
+                <div class="gallery-card">
+                    <img src="https://insanelygoodrecipes.com/wp-content/uploads/2023/01/Ham-and-Cheese-Sandwich-with-Tomatoes-and-Green-Salad-683x1024.jpg">
+                    <h3>Sandwich</h3>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://www.mercurynews.com/wp-content/uploads/2019/01/SJM-L-WINGS-0120-01.jpg?w=1800&resize=1800,1800">
+                    <h3>Chicken Wings</h3>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Mr. Beans Cafe.</p>
+    </footer>
+
+</body>
+</html>
